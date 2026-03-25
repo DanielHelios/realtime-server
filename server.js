@@ -10,7 +10,7 @@ app.use(express.json());
 // --- CONFIGURATION O2SWITCH ---
 const PORT = process.env.PORT || 3000;
 const REFRESH_RATE = 2000;
-const baseRoute = "/api-node"; // Doit correspondre à l'URL cPanel
+const baseRoute = "/"; // Doit correspondre à l'URL cPanel
 
 // --- GESTION ERREURS ---
 process.on("uncaughtException", (err) => {
